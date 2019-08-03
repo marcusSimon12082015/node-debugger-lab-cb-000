@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-08-03T19:13:52.720Z",
+    "end": "2019-08-03T19:13:52.730Z",
+    "duration": 10
+  },
+  "tests": [
+    {
+      "title": "must return the desired output",
+      "fullTitle": "account.js must return the desired output",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: account is not defined\n    at Object.<anonymous> (account.js:34:1)\n    at require (internal/module.js:11:18)\n    at Context.<anonymous> (test/index.js:19:24)",
+        "message": "account is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must return the desired output",
+      "fullTitle": "account.js must return the desired output",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: account is not defined\n    at Object.<anonymous> (account.js:34:1)\n    at require (internal/module.js:11:18)\n    at Context.<anonymous> (test/index.js:19:24)",
+        "message": "account is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
