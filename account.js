@@ -26,6 +26,7 @@ module.exports = function account() {
   output['Account before opening'] = 'customerAccount'
 
   openAccount(customerAccount)
+  debugger
   setAccountType()
   output['Account after opening'] = customerAccount
   return output
